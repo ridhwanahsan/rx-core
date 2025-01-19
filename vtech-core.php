@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: vtech core
+ * Plugin Name: rxtech core
  * Description: Elementor sample plugin.
  * Plugin URI:  https://github.com/ridhwanahsan/theme/raw/main/source/vtech-core.zip
  * Version:     1.2.3
@@ -10,6 +10,20 @@
  * Elementor tested up to: 3.5.0
  * Elementor Pro tested up to: 3.5.0
  */
+// this code for update plugin
+require 'plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+    'https://github.com/user-name/repo-name/',
+    __FILE__,
+    'unique-plugin-or-theme-slug'
+);
+
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('stable-branch-name');
+
+//Optional: If you're using a private repository, specify the access token like this:
+// $myUpdateChecker->setAuthentication('your-token-here');
+
 
 // This function adds a custom widget category called 'vtech widget' to Elementor's widget categories
 
