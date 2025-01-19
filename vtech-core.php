@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: rxtech core
+ * Plugin Name: Rx core
  * Description: Elementor sample plugin.
  * Plugin URI:  https://github.com/ridhwanahsan/theme/raw/main/source/vtech-core.zip
- * Version:     1.0.3
+ * Version:     1.0.4
  * Author:      ridhwan ahsan
  * Author URI:  https://elementor.com/
  * Text Domain: vtech-core
