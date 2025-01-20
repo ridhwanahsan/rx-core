@@ -65,6 +65,8 @@ if (! defined('ABSPATH')) {
 include_once 'include/core-function.php';
 include_once 'include/class-ocdi-importer.php';
 include_once 'include/post-project.php';
+include_once 'include/builder.php';
+
 include_once 'include/widget-parts/team-nember/team-parts.php';
 include_once 'include/widget-parts/hero-widget/hero01-parts.php';
 
